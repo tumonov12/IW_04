@@ -102,11 +102,13 @@ body{
     padding: 0;
     margin: 27px 0 0;
     border-radius: 4px;
-    text-align: center;
-    align-items: center;
+    
+}
+.btn a{
     color: #fff;
     font-weight: 900;
     font-size: 16px;
+    text-decoration: none;
 }
 .cras{
     padding: 4.9% 0 2.9%;
@@ -135,13 +137,16 @@ body{
 }
 .button{
     background-color: #e4551d;
-    font-weight: 700;
-    font-size: 55.5%;
     border: none;
-    color: #fff;
     border-radius: 4px;
-    padding: 1.1%;
     margin-top: 3.4%;
+    padding: 10px 20px;
+}
+.button a{
+    color: #fff;
+    font-weight: 700;
+    font-size: 90%;
+    text-decoration: none;
 }
 .footer{
     background-color: #637f83;
@@ -198,6 +203,12 @@ body{
     .footer{
         height: 85px;
     }
+    .button{
+        padding: 8px 16px;
+    }
+    .button a{
+        font-size: 80%;
+    }
 }
 @media (max-width: 650px){
     .banner p{
@@ -220,6 +231,12 @@ body{
     }
     .footer{
         height: 75px;
+    }
+    .button{
+        padding: 6px 12px;
+    }
+    .button a{
+        font-size: 70%;
     }
 }
 @media (max-width: 570px){
@@ -287,5 +304,11 @@ body{
     }
     .cras h1{
         font-size: 8px;
+    }
+    .button{
+        padding: 4px 8px;
+    }
+    .button a{
+        font-size: 60%;
     }
 }
