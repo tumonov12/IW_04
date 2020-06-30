@@ -78,7 +78,7 @@ body{
     border-left: 1px solid #d5d5d5;
     width: 18%;
 }
-.item_1:first-child{
+.item_01{
     border: none;
 }
 .item_1 p{
@@ -171,12 +171,10 @@ body{
         width: 30%;
         margin-top: 20px;
     }
-    .item_1:nth-child(3){
+    .item_03{
         border: none;
     }
-    .item_1:nth-child(1){
-        margin-top: 0;
-    }.item_1:nth-child(2){
+    .item_01 .item_02{
         margin-top: 0;
     }
 }
@@ -261,7 +259,10 @@ body{
         border-left: none;
         padding: 50px 10px 5px; 
     }
-    .item_1:last-child{
+    .item_01 .item_03{
+        border-bottom: 1px solid #d5d5d5;
+    }
+    .item_04{
         margin-bottom: 30px;
         border: none;
     }
